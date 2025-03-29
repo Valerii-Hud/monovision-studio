@@ -1,0 +1,13 @@
+/** Colors variables **/
+
+:root {
+  --light-color: #f5f5f7;
+  --dark-color: #221f20;
+}
+
+/** Container variables **/
+
+:root {
+  --container-padding-inline: 13%;
+  --footer-padding-inline: 10%;
+}
