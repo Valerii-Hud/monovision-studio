@@ -1,8 +1,16 @@
+/* Libs  */
 @import url("./libs/css-reset.css");
 @import url("./libs/modern-normalize.css");
+
+/* Base  */
 @import url("./base/variables.css");
+
+/* UI  */
 @import url("./ui/btn.css");
+
+/* Blocks  */
 @import url("./components/promo.css");
+@import url("./components/about.css");
 
 .container {
   padding: 0 var(--container-padding-inline);
