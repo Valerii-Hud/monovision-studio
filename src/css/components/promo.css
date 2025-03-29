@@ -1,0 +1,57 @@
+.promo {
+  position: relative;
+  padding-top: 7.5rem;
+  min-height: 100vh;
+  background: url("../../img/main_bg.jpg") center center / cover no-repeat;
+
+  .promo__title {
+    color: var(--light-color);
+    font-size: 6rem;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .promo__subtitle {
+    margin-top: 12.4rem;
+    color: var(--light-color);
+    font-size: 3.2rem;
+    font-weight: 100;
+    line-height: normal;
+  }
+  .promo__address {
+    margin-top: 10rem;
+    color: var(--light-color);
+    font-size: 1.6rem;
+    font-weight: 100;
+    line-height: normal;
+  }
+  address {
+    font-style: normal;
+  }
+  .promo__tel {
+    color: inherit;
+    text-decoration: none;
+  }
+  .keywords {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    padding: 0 360px;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.04) 0%,
+      rgba(255, 255, 255, 0.12) 50%,
+      rgba(255, 255, 255, 0.2) 100%
+    );
+  }
+  li {
+    color: var(--light-color);
+    list-style-type: none;
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: normal;
+  }
+}

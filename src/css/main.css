@@ -1,2 +1,9 @@
-@import url("./lib/css-reset.css");
-@import url("./variables.css");
+@import url("./libs/css-reset.css");
+@import url("./libs/modern-normalize.css");
+@import url("./base/variables.css");
+@import url("./ui/btn.css");
+@import url("./components/promo.css");
+
+.container {
+  padding: 0 var(--container-padding-inline);
+}

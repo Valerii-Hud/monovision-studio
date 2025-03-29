@@ -1,0 +1,17 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 5px 5px;
+  width: 160px;
+  min-height: 38px;
+  border: 1px solid var(--light-color);
+  background: rgba(217, 217, 217, 0);
+  color: var(--light-color);
+  font-size: 1.6rem;
+  font-weight: 100;
+  cursor: pointer;
+}
