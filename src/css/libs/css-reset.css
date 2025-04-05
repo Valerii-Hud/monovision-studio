@@ -30,6 +30,9 @@ h5 {
 img {
   display: block;
   max-inline-size: 100%;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
 
 html {
