@@ -5,4 +5,17 @@
   font-weight: 400;
   line-height: normal;
   text-align: center;
+  span {
+    position: relative;
+  }
+  span::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 75px;
+    height: 2px;
+    bottom: 0;
+    right: 0;
+    background-color: var(--dark-color);
+  }
 }

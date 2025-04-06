@@ -12,6 +12,11 @@
   background: rgba(217, 217, 217, 0);
   color: var(--light-color);
   font-size: 1.6rem;
-  font-weight: 100;
+  font-weight: 300;
   cursor: pointer;
+  transition: all 0.3s ease-out;
+
+  &:hover {
+    box-shadow: 5px 5px 10px 0 rgba(255, 255, 255, 0.6);
+  }
 }
