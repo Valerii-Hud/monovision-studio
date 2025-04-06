@@ -1,0 +1,16 @@
+.customers {
+  padding-top: 80px;
+  .customers__wrapper {
+    display: flex;
+    padding-top: 50px;
+    flex-wrap: wrap;
+    .customers__item {
+      display: flex;
+      align-items: center;
+      width: 340px;
+      height: 250px;
+      margin: 20px;
+      box-shadow: 5px 5px 20px var(--dark-color);
+    }
+  }
+}
