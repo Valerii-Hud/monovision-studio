@@ -1,0 +1,12 @@
+/** Container variables **/
+
+:root {
+  @media screen and (max-width: 768px) {
+    --container-padding-inline: 6%;
+    --footer-padding-inline: 6%;
+  }
+  @media screen and (max-width: 576px) {
+    --container-padding-inline: 15px;
+    --footer-padding-inline: 15px;
+  }
+}

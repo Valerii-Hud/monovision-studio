@@ -1,0 +1,24 @@
+footer {
+  @media screen and (max-width: 768px) {
+    & {
+      flex-direction: column;
+      align-items: start;
+      :where(.footer__address, .footer__tel) {
+        padding-top: 30px;
+      }
+    }
+  }
+  @media screen and (max-width: 576px) {
+    & {
+      align-items: center;
+      .footer__address {
+        order: 1;
+      }
+    }
+  }
+  @media screen and (max-width: 375px) {
+    & {
+      font-size: 1.6rem;
+    }
+  }
+}

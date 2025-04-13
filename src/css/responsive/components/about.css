@@ -1,0 +1,17 @@
+.about {
+  @media screen and (max-width: 768px) {
+    .about__descr {
+      font-size: 2.4rem;
+    }
+    .services {
+      flex-direction: column;
+      .services__items {
+        width: 100%;
+      }
+      .services__descr {
+        margin-top: 40px;
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,15 +1,16 @@
 .customers {
-  padding-top: 80px;
+  padding: 80px 0 100px 0;
   .customers__wrapper {
     display: flex;
     padding-top: 50px;
     flex-wrap: wrap;
+    gap: 30px;
     .customers__item {
       display: flex;
+      justify-content: center;
       align-items: center;
-      width: 340px;
-      height: 250px;
-      margin: 20px;
+      height: 100%;
+      width: calc((100% - 90px) / 4);
       box-shadow: 5px 5px 20px var(--dark-color);
     }
   }

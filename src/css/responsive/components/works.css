@@ -1,0 +1,16 @@
+.works {
+  @media screen and (max-width: 768px) {
+    padding-top: 50px;
+  }
+  .works__grid {
+    @media screen and (max-width: 768px) {
+      margin-top: 40px;
+      gap: 30px 20px;
+    }
+    @media screen and (max-width: 576px) {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4, 1fr) 1.5fr;
+      gap: 30px 0;
+    }
+  }
+}

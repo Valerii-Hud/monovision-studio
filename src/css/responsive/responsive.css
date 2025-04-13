@@ -1,0 +1,14 @@
+/* Base  */
+@import url("base/variables.css");
+@import url("base/title.css");
+
+/* UI  */
+@import url("ui/btn.css");
+
+/* Blocks  */
+@import url("components/promo.css");
+@import url("components/about.css");
+@import url("components/works.css");
+@import url("components/inspiration.css");
+@import url("components/customers.css");
+@import url("components/footer.css");

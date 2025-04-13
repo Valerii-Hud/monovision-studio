@@ -1,0 +1,21 @@
+.customers {
+  @media screen and (max-width: 1024px) {
+    .customers__wrapper {
+      .customers__item {
+        width: 30%;
+      }
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .customers__wrapper {
+      .customers__item {
+        width: 45%;
+      }
+    }
+  }
+  @media screen and (max-width: 376px) {
+    .customers__wrapper {
+      justify-content: center;
+    }
+  }
+}

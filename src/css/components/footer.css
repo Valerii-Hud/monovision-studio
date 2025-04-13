@@ -1,0 +1,39 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px var(--footer-padding-inline);
+  background-color: #000000;
+  color: var(--light-color);
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: normal;
+  .footer__address {
+    font-style: normal;
+  }
+  .footer__tel {
+    color: var(--light-color);
+    text-decoration: none;
+  }
+  .footer__contacts_wrapper {
+    padding-left: 0;
+    display: flex;
+    gap: 30px;
+    flex-wrap: nowrap;
+    list-style-type: none;
+
+    li {
+      width: 32px;
+      height: 32px;
+      border: 1px solid var(--light-color);
+      background-color: #000000;
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.btn {
+  @media screen and (max-width: 576px) {
+    min-width: 120px;
+    min-height: 30px;
+    font-size: 14px;
+  }
+}
